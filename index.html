@@ -1,1 +1,348 @@
-Hi
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+<head>
+<meta http-equiv="content-language" content="en-US">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>YAML Converter - Convert YAML to JSON, XML, BASE64, MINIFY, BEAUTIFY</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="YAML Converter - Convert YAML Strings into JSON, XML, CSV, Base64, YAML Beautify, Minify, YAML to XML, YAML to CSV, YAML to Base64, YAML to JSON" />
+<meta name="author" content="Peter Parker" />
+<meta name="Keywords" content="yaml,yaml to json,yaml to xml,yaml to csv,yaml to base64, yaml converter,Online yaml editor,Online yaml to json converter,Online yaml to xml converter,Online yaml to csv converter,online yaml to base64 converter,yaml Validator" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <meta name="msvalidate.01" content="9E5ADF4182AB7E4F64FBC94965FECC76" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" type="5354be0c25f6fbc7c66b48eb-text/javascript">   </script>
+  <link rel = "stylesheet" type = "text/css" href = "assets/css/main.css" > 
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon_io/favicon.ico"/>
+  <script type = 'text/javascript' src = "assets/javascript/yamlOperation.js"></script>
+   <script type = 'text/javascript' src = "assets/javascript/yaml.min.js"></script>
+   <script type = 'text/javascript' src = "assets/javascript/json2xml.js"></script>
+   <script type = 'text/javascript' src = "assets/javascript/x2json.min.js"></script>
+    <script type = 'text/javascript' src = "assets/javascript/objtree-vkbeautify.js"></script>
+    <script type = 'text/javascript' src = "assets/javascript/converttocsv-underscore-lib.js"></script>
+      <script type = 'text/javascript' src = "assets/javascript/papaparse.min.js"></script>
+   <script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/json2csv/4.5.2/json2csv.umd.js" type="5354be0c25f6fbc7c66b48eb-text/javascript"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70952145-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70952145-2');
+</script>
+  <link href="https://www.yamlonline.com" rel="canonical">
+  <link rel="alternate" href="https://www.yamlonline.com" hreflang="en-US"/>
+  <meta name="google-site-verification" content="U1HBUnja3tpWelwfo1KjpKhA2Z8NOQDhU9Cr-hpNdVM" />
+  
+  
+<meta property="og:title" content="YAML Converter - Convert YAML to JSON, XML, BASE64, MINIFY, BEAUTIFY" />
+<meta property="og:description" content="yaml,yaml to json,yaml to xml,yaml to csv,yaml to base64, yaml converter,Online yaml editor,Online yaml to json converter,Online yaml to xml converter,Online yaml to csv converter,online yaml to base64 converter,yaml Validator" />
+<meta property="og:image" content="https://www.yamlonline.com/assets/img/YAMLConverter.png" />
+<meta property="og:url" content="https://www.yamlonline.com/" />
+<meta property="og:type" content="website" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@yamlonline" />
+
+<meta name="twitter:title" content="YAML Converter - Convert YAML to JSON, XML, BASE64, MINIFY, BEAUTIFY" />
+<meta name="twitter:description" content="YAML Converter - Convert YAML Strings into JSON, XML, CSV, Base64, YAML Beautify, Minify, YAML to XML, YAML to CSV, YAML to Base64, YAML to JSON" />
+<meta name="twitter:image" content="https://www.yamlonline.com/assets/img/YAMLConverter.png" />
+<meta name="twitter:url" content="https://www.yamlonline.com/">
+<script data-ad-client="ca-pub-5062674182137591" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark py-md-0">
+    <a class="navbar-brand" href="index.html">-YAML</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!--<div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="https://onlinejsontools.org/" target="_blank">JSON Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://onlinexmltools.org/" target="_blank">XML Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.onlinestringtools.org/" target="_blank">String Tools</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="https://www.onlinebase64tools.org/" target="_blank">Base64 Tools</a>
+            </li>
+        </ul>
+    </div>!-->
+</nav>
+<div class="container-fluid ">
+	<h1> YAML Converter</h1>
+	<div class="row no-gutters  justify-content-between">
+        <div class="col-sm-5 col" >
+                                    <div class="card  border-dark border-bottom-0 text-white bg-dark rounded-0">
+                                        <div class="card-body py-md-2">
+                                       
+										                        <a href="#">
+                                                <i  class="fa fa-trash-o float-right " style="font-size:21px;margin-right:10px;color:red" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="clearInputAndOutput();"></i>
+                                            </a>
+                                           
+                                            <a href="#" class="text-white">
+                                                <i  class="fa fa-copy float-right " style="font-size:21px;margin-right:10px;" data-placement="bottom" title="Copy" onclick="inputCopyContent()"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i  class="fa fa-check float-right " style="font-size:21px;margin-right:10px;color:orange" data-toggle="tooltip" data-placement="bottom" title="Validate" onclick="YAMLValidator();"></i>
+                                            </a>
+                                            <a href="#" class="text-white">
+                                                <i  class="fa fa-file-text-o float-right " style="font-size:21px;margin-right:10px;" data-placement="bottom" title="Sample" onclick="sampleFile()" ></i>
+                                            </a>
+                                           
+                                        </div>
+                                    </div> 
+        
+        </div>
+       
+        <div class="col-sm-5" >
+                         <div class="card border-dark border-bottom-0 text-white bg-dark rounded-0 ">
+                                        <div class="card-body py-md-2">
+                                       
+                                          
+									                        	<a href="#"  >
+                                                <i  class="fa fa-trash-o float-right " style="font-size:21px;margin-right:10px;color:red" data-toggle="tooltip" data-placement="bottom" title="Delete" onclick="clearOutput();"></i>
+                                            </a>
+                                            <a href="#" >
+                                                <i  class="fa fa-download float-right " style="font-size:21px;margin-right:10px;color:green" data-toggle="tooltip" data-placement="bottom" title="Download" onclick="downloadFile()"></i>
+                                            </a>
+                                          
+                                            <a href="#" class="text-white">
+                                                <i  class="fa fa-copy float-right " style="font-size:21px;margin-right:10px;" data-placement="bottom" title="Copy" onclick="outputCopyContent();"></i>
+                                            </a>
+                                        </div>
+                                    </div> 
+        </div>
+    </div>
+	<div class="row no-gutters">
+        <div class="col-sm-5" >
+                    
+                                        
+                                    <div id="editor" class="border border-dark" OnPaste ="yamlbeautify()"></div>
+                                    
+                                    
+                    
+		</div>
+	
+        <div class="col-sm-2 center custom-padding"  >
+									<div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="YAMLValidator();" >Validate</button>
+                                    </div>  
+                                    <br>
+			
+                                        <div class="btn-div">
+                                        
+                                                    <button type="button" class="btn btn-dark btn-xs btn-outline btn-block " onclick="yamlbeautify();" >Beautify</button>
+                                    </div>
+                                    <br>
+                                    <div class="btn-div">
+                                                    <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="YAMLminify();" >Minify/Compact</button>
+                                    </div>   
+                                    <br>
+                                                                 
+                                    <div class="btn-div">
+                                            <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="yamlToJson();" >YAML To JSON</button>
+                                    </div> 
+									<br>  
+                                        <div class="btn-div">
+                                            <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="yamlToxml();" >YAML To XML</button>
+                                    </div>
+									<br> 
+                                    
+                                    <div class="btn-div">
+                                            <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="yamlTocsv();" >YAML To CSV</button>
+                                    </div> 
+                                    <br>
+                                   
+                                    
+                                    <div class="btn-div">
+                                                <button type="button" class="btn btn-dark btn-xs btn-outline btn-block" onclick="yaml2base64Convert();" >YAML To BASE64</button>
+									</div>
+                                    <br>
+                                   
+									 
+
+
+        </div>
+        <div class="col-sm-5" >
+                        <div id="editorOutput" class="border border-dark"></div>
+        </div>
+
+        
+
+</div>
+
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">What is YAML?</h2>
+  <div class="card-body">
+    <p style="font-size:20px;"> <b>YAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.</b></p>
+  </div>
+</div>
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">YAML to JSON Converter?</h2>
+  <div class="card-body">
+    <p style="font-size:20px;"> <b>Convert YAML to Javscript Object Notation. Enter your YAML input on the leftside input area after that click on YAML To JSON button so, it will be convert your YAML to JSON.</b></p>
+    
+  </div>
+</div>
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">YAML to XML Converter?</h2>
+  <div class="card-body">
+    <p style="font-size:20px;"> <b>Convert YAML to XML. Enter your YAML input on the leftside input area after that click on YAML To XML button so, it will be convert your YAML to XML.</b></p>
+    
+  </div>
+</div>
+<br>
+
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">YAML to CSV Converter?</h2>
+  <div class="card-body">
+   <p style="font-size:20px;"> <b>Convert YAML to CSV. Enter your YAML input on the leftside input area after that click on YAML To CSV button so, it will be convert your YAML to CSV.</b><p>
+  
+  </div>
+</div>
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">YAML to BASE64 Converter?</h2>
+  <div class="card-body">
+    <p style="font-size:20px;"><b>Convert YAML to Base64. Enter your YAML input on the leftside input area after that click on YAML To BASE64 button so, it will be convert your YAML to Base64.</b></p>
+   
+  </div>
+</div>
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">YAML Converter</h2>
+  <div class="card-body">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <p> YAML Converter and Validator help to validate and convert your YAML data.</p>
+      <p> It is also helpful to convert your YAML to CSV, JSON, XML, and Base64..</p>
+      <p>This YAML Converter online tool is very effective and powerful.</p>
+       <ul class="list-group">
+        <li >It helps to validate YAML online with respective Error.</li>
+        <li >It' provides file after conversion so you can download the converted file.</li>
+        <li >It' provides you to converted YAML or XML.</li>
+        <li >This YAML Converter Tool can also work as a YAML lint.</li>
+        <li >Encode and Decode your YAML using <a href="https://www.onlinebase64tools.org/" target="_blank"> Base64 Converter Tool.</a></li>
+      </ul>
+    
+      
+    </div>
+    <div class="col-4">
+      <p>YAML Converter tool also provides you to convert, YAML to XML, YAML to JSON,   <a href="https://onlinejsontools.org/" target="_blank">JSON to YAML</a>, YAML to CSV, YAML editor.</p>
+      <p>Convert date to JSON and Vaidate JSON using <a href="https://onlinejsontools.org/" target="_blank">Online JSON Tool.</a></p>
+      <p>Convert date to XML and Vaidate XML using <a href="https://onlinexmltools.org/" target="_blank">Online XML Tool, XML Formatter, XML lint.</a></p>
+      <p>Usally YAML value is with key and value pair as like Javascript.</a></p>
+      <p>YAML is mostly use for configuration file, that convey message between application and it's state.</a></p>
+    </div>
+  </div>
+  </div>
+</div>
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">Know more about YAML?</h2>
+  <div class="card-body">
+  <ul class="list-group">
+        <a href="https://en.wikipedia.org/wiki/YAML" target="_blank"><li >YAML in detail?</li></a>
+        <a href="https://yaml.org/start.html" target="_blank"><li >YAML data example.</li></a>
+      
+      </ul>
+  </div>
+</div>
+<br>
+<div class="card">
+  <h2 class="card-header text-white bg-dark rounded-0">YAML Example.</h2>
+  <div class="card-body">
+  <pre>
+    <code>
+      Director:
+      name: James Cameron
+      Movies:
+      - Movie: {title: Titanic, year: 1997}
+      - Movie: {title: Avatar, year: 2009}
+      - Movie: {title: Terminator Dark Fate, year: 2019}
+      - Movie: {title: Avatar2, year: 2021}
+    </code>
+  </pre>
+  </div>
+</div>
+<br>
+</div>
+<br>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark py-md-0">
+  <ul class="navbar-nav mx-auto justify-content-center">
+    <li class="nav-item ">
+      <a class="nav-link"   href="index.html">&copy; yamlonline</a>
+    </li>
+    
+    <li class="nav-item ">
+      <a class="nav-link"   href="policy.html">Privacy Policy</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link"   href="contact.html">Contact</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link"   href="about.html">About</a>
+    </li>
+  </ul>
+</nav>
+<textarea id="clipboard-content" style="display:none"></textarea>
+<script type = 'text/javascript' src = "assets/javascript/ace/src-noconflict/ace.js"></script>
+<script>
+    var editor = ace.edit("editor",{
+        wrap: true,
+        autoScrollEditorIntoView: true
+    });
+    editor.setTheme("ace/theme/dawn");
+    editor.getSession().setMode("ace/mode/yaml");
+    editor.setFontSize("18px");
+
+    var editorOutput = ace.edit("editorOutput",{
+        wrap: true,
+        autoScrollEditorIntoView: true
+    });
+    editorOutput.setTheme("ace/theme/dawn");
+    editorOutput.getSession().setMode("ace/mode/html");
+    editorOutput.setFontSize("18px");
+</script>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "YAML ONLINE",
+ "url" : "",
+ "sameAs" : [
+   "https://twitter.com/yamlonline"
+   ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Example Street",
+    "addressRegion": "CA",
+    "postalCode": "94040",
+    "addressCountry": "US"
+  }
+}
+</script>
+</body>
+</html>

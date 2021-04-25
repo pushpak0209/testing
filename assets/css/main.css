@@ -1,0 +1,19 @@
+#editor { 
+     
+    height: calc(100vh - 155px);
+}
+#editorOutput {
+
+    height: calc(100vh - 155px);
+}
+.center {
+    text-align: center;
+}
+
+.no-gutters>.col, .gutters>[class*=col-]  {
+    padding-right: 0 ;
+    padding-left: 0;
+}
+.no-gutters .custom-padding {
+    padding: 0 8px;
+}
