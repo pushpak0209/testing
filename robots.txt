@@ -1,0 +1,7 @@
+# robots.txt generated at https://yamlonline.com/
+User-agent: *
+Allow: /pagead/show_ads.js
+Allow: /pagead/js/adsbygoogle.js
+
+Disallow: 
+Sitemap: https://yamlonline.com/
